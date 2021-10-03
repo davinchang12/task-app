@@ -21,6 +21,16 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+
+  # Calendar
+  syncfusion_flutter_calendar: ^19.2.48
+
+  # Handling dates
+  intl: ^0.17.0
+
+  # State management
+  provider: ^5.0.0
+
   flutter:
     sdk: flutter
 
@@ -28,7 +38,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
+  shared_preferences: ^2.0.6
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
